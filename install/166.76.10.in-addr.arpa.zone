@@ -1,0 +1,21 @@
+$TTL 1W
+@	IN	SOA	ns1.jee.local.	root (
+			2019070700	; serial
+			3H		; refresh (3 hours)
+			30M		; retry (30 minutes)
+			2W		; expiry (2 weeks)
+			1W )		; minimum (1 week)
+	IN	NS	ns1.jee.local.
+;
+31.166.76.10.in-addr.arpa.	IN	PTR	api.cloud.jee.local. 
+31.166.76.10.in-addr.arpa.	IN	PTR	api-int.cloud.jee.local. 
+;
+32.166.76.10.in-addr.arpa.	IN	PTR	bootstrap.cloud.jee.local. 
+;
+33.166.76.10.in-addr.arpa.	IN	PTR	master0.cloud.jee.local. 
+34.166.76.10.in-addr.arpa.	IN	PTR	master1.cloud.jee.local. 
+35.166.76.10.in-addr.arpa.	IN	PTR	master2.cloud.jee.local. 
+;
+36.166.76.10.in-addr.arpa.	IN	PTR	worker0.cloud.jee.local. 
+37.166.76.10.in-addr.arpa.	IN	PTR	worker1.cloud.jee.local. 
+;

@@ -1,0 +1,30 @@
+$TTL 1W
+@	IN	SOA	ns1.jee.local.	root (
+			2019070700	; serial
+			3H		; refresh (3 hours)
+			30M		; retry (30 minutes)
+			2W		; expiry (2 weeks)
+			1W )		; minimum (1 week)
+	IN	NS	ns1.jee.local.
+	IN	MX 10	smtp.jee.local.
+;
+;
+ns1.cloud.jee.local.		IN	A	10.76.166.31
+;
+bastion.cloud.jee.local.	IN	A	10.76.166.31
+registry.cloud.jee.local.	IN	A	10.76.166.31
+;
+api.cloud.jee.local.		IN	A	10.76.166.31
+api-int.cloud.jee.local.	IN	A	10.76.166.31
+;
+*.apps.cloud.jee.local.		IN	A	10.76.166.31
+;
+bootstrap.cloud.jee.local.	IN	A	10.76.166.32 
+;
+master0.cloud.jee.local.	IN	A	10.76.166.33 
+master1.cloud.jee.local.	IN	A	10.76.166.34 
+master2.cloud.jee.local.	IN	A	10.76.166.35 
+;
+worker0.cloud.jee.local.	IN	A	10.76.166.36 
+worker1.cloud.jee.local.	IN	A	10.76.166.37
+;
