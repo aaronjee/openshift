@@ -1,0 +1,25 @@
+JarIndex-Version: 1.0
+
+ROOT.war
+META-INF
+WEB-INF
+WEB-INF/classes
+WEB-INF/classes/META-INF
+WEB-INF/classes/org
+WEB-INF/classes/org/jboss
+WEB-INF/classes/org/jboss/as
+WEB-INF/classes/org/jboss/as/quickstarts
+WEB-INF/classes/org/jboss/as/quickstarts/kitchensink
+WEB-INF/classes/org/jboss/as/quickstarts/kitchensink/controller
+WEB-INF/classes/org/jboss/as/quickstarts/kitchensink/data
+WEB-INF/classes/org/jboss/as/quickstarts/kitchensink/model
+WEB-INF/classes/org/jboss/as/quickstarts/kitchensink/rest
+WEB-INF/classes/org/jboss/as/quickstarts/kitchensink/service
+WEB-INF/classes/org/jboss/as/quickstarts/kitchensink/util
+WEB-INF/templates
+resources
+resources/css
+resources/gfx
+index.html
+index.xhtml
+

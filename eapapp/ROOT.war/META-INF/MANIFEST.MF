@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.4.0
+Build-Jdk-Spec: 11
+Specification-Title: Quickstart: kitchensink
+Specification-Version: 7.4
+Specification-Vendor: JBoss by Red Hat
+Implementation-Title: Quickstart: kitchensink
+Implementation-Version: 7.4.0.GA
+Implementation-Vendor: JBoss by Red Hat
+Implementation-URL: https://developers.redhat.com/quickstarts/eap/kitche
+ nsink/
+Java-Vendor: Red Hat, Inc.
+Java-Version: 11.0.14
+Os-Arch: amd64
+Os-Name: Linux
+Os-Version: 4.18.0-305.34.2.el8_4.x86_64
+Scm-Connection: scm:git:git@github.com:jboss/jboss-parent-pom.git/quicks
+ tart-parent/kitchensink
+Scm-Revision: UNKNOWN
+Scm-Url: http://github.com/jboss/jboss-parent-pom/quickstart-parent/kitc
+ hensink
+
