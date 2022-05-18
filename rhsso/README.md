@@ -1,4 +1,6 @@
 # RH-SSO Deployment on OpenShift 4
+DOC : https://access.redhat.com/documentation/en-us/red_hat_single_sign-on/7.2/html/red_hat_single_sign-on_for_openshift/index
+youtube : https://www.youtube.com/watch?v=2oOv3DKJjlQ
 
 1. 프로젝트 생성
 oc new-project sso
@@ -18,6 +20,7 @@ $ vi /etc/exports
 $ systemctl enable nfs-server; systemctl start nfs-server
 
 5. Pod생성 확인
+
 5-1. postgresql error
 pg_ctl: another server might be running; trying to start server anyway
 waiting for server to start....2022-05-18 12:35:45.502 UTC [24] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
@@ -30,4 +33,4 @@ server started
 => sourcing /usr/share/container-scripts/postgresql/start/set_passwords.sh ...
 psql: FATAL:  database "postgres" does not exist
 
->> solution : userdata 디렉토리 삭제 후 Pod 재기동
+- solution : userdata 디렉토리 삭제 후 Pod 재기동
