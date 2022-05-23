@@ -17,6 +17,8 @@ else ival = new Integer (ival.intValue() + 1);
 session.putValue ("counter", ival);
 %>
 <h4>Server Name : <%=session.getId().substring(session.getId().indexOf(".") + 1) %></h4>
+<h4>POD NAME : <%=java.net.InetAddress.getLocalHost().getHostName()%></h4>
+    
 You have hit this page <%= ival %> times.<br>
 <%
 out.println("Your Session ID is " + session.getId() + "<br>");
