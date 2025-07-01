@@ -7,4 +7,3 @@ ROOT.war
 2. Apache HTTPD static dir
 
 static resources (html)
-test resources (kubernetes, openshift logo)
