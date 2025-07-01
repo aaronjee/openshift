@@ -1,5 +1,7 @@
 [ OpenShift Test Repository ]
 
-ROOT.war - tomcat application
+1. tomcat application
+ROOT.war
 
-static - Apache HTTPD static dir
+2. Apache HTTPD static dir
+static resources (html)
